@@ -1,0 +1,293 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.all{
+    background: url("https://assets.website-files.com/63b70b41e4fdcd49696954e2/63b70eef3e6f80894569ae81_background.jpg");
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    cursor: url('data:image/x-icon;base64,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AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAOAAAAGAAAACIAAAApPj4+OAAAACkAAAAkAAAAHQAAABUAAAAOAAAACAAAAAUAAAADAAAAAgAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAsAAAASAAAAGQAAAB4AAAAeAAAAHAAAABgAAAASAAAADAAAAAcAAAAEAAAAAgAAAAIAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAACAAAAAwAAAARAAAAFAAAABQAAAARAAAADgAAAAoAAAAGAAAABAAAAAIAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAFAAAABwAAAAoAAAALAAAACwAAAAkAAAAHAAAABQAAAAMAAAACAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/////////////////////////////3////w///zgP//8AD///AA///wAP//4AD//+AAf//gAH//4AA//+AAD//gAA//4AA//+AAf//gAf//4AP//+AH///gH///4D///+D////h////5////+/////////////////////////8='), auto;
+}
+.all .side {
+    -webkit-backdrop-filter: blur(9px);
+    backdrop-filter: blur(9px);
+    text-align: center;
+    background-color: rgba(255, 255, 255, .07);
+    border-left: 1px solid rgba(255, 255, 255, .15);
+    width: 50%;
+    border-right: 1px solid rgba(255, 255, 255, .15);
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+        position: absolute;
+        right: 0;
+
+}
+.all .side .content{
+   display: flex ;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+   flex-direction: column;
+   color: white;
+   padding-top: 50px;
+}
+.all .side .content .up h1{
+    font-size: 40px;
+    margin: 20px;
+}
+.all .side .content .up p {
+    color: #9d9e9b;
+    font-size: 17px;
+    padding-bottom: 40px ;
+}
+.all .side .content .email label , .all .side .content .pass label {
+    display: block;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+.all .side .content .email , .pass{
+    text-align: start;
+}
+.all .side .content .pass label{
+    padding-top: 30px;
+}
+ .all .side .content .email input, .all .side .content .pass input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #41534b ;
+    width: 450px;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+ }
+ .all .side .content .email input:focus, .all .side .content .pass input:focus{
+    outline :none;
+    border-bottom: 2px solid #a0c5d8;
+ }
+ .all .side .content .underform  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 17px;
+ }
+ .all .side .content .underform .checkbox{
+  width: 40%;
+  text-align: start;
+  padding-top: 20px;
+ }
+ .all .side .content .underform p, .all .side .content .underform p a {
+    text-decoration: none;
+    color: white;
+    padding-top: 20px;
+ }
+
+
+ .all .side .content .underform button{
+    width: 450px;
+    background-color: black;
+    color: white;
+    border: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 17px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 350ms ease;
+ }
+ .all .side .content .underform button:hover{
+    background-color: rgba(0, 0, 0, 0.432);
+ }
+ .all .side .content .underform .button{
+    padding-top: 50px;
+ }
+ .end span{
+   cursor: pointer;
+ }
+ /* mobile phones */
+ @media only screen 
+ and (min-device-width: 200px) 
+ and (max-device-width: 480px)
+ and (-webkit-min-device-pixel-ratio: 2) {
+    .all .side{
+        width: 100%;
+    }
+
+}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+.all .side{
+        width: 100%;
+    }
+}
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+.all .side{
+    width: 100%;
+}
+}
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+.all .side{
+    width: 100%;
+}
+}
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+.all .side{
+    width: 100%;
+}
+}
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) {
+.all .side{
+    width: 100%;
+}
+}
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+.all .side{
+    width: 100%;
+}
+}
+@media screen 
+  and (device-width: 340px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+.all .side{
+    width: 100%;
+}
+}
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) {
+    .all .side {
+        width: 100%;
+    }
+}
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) {
+.all .side{
+    width: 100%;
+}
+}
+/* laptop screens */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+    .all .side{
+        width: 50%;
+    }
+}
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+    .all .side{
+        width: 50%;
+    }
+}
+/* ipad screens */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .all .side{
+        width: 100%;
+    }
+}
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+.all .side{
+    width: 100%;
+}
+}
+@media only screen 
+  and (min-device-width: 834px) 
+  and (max-device-width: 834px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+.all .side{
+    width: 100%;
+
+}
+.class{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+   margin-top: 30px;
+}
+}
+@media only screen 
+  and (min-device-width: 1112px) 
+  and (max-device-width: 1112px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+.all .side{
+    width: 50%;
+}
+}
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .all .side{
+        width: 100%;
+    }
+    .class{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+       margin-top: 30px;
+    }
+}
+@media only screen 
+  and (min-device-width: 1366px) 
+  and (max-device-width: 1366px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .all .side{
+        width: 50%;
+    }
+}
+@media 
+  (max-device-width: 218px)
+  and (max-device-height: 281px) { 
+.all .side{
+    width: 100%;
+}
+.class{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-top: 30px;
+}
+}
